@@ -13,5 +13,6 @@ function updateLinks() {
 
   for(let i = 0, len = storyLinks.length; i < len; i++) {
     storyLinks[i].setAttribute('target', '_blank');
+    storyLinks[i].setAttribute('rel', 'noopener noreferrer');
   }
 }
